@@ -1,0 +1,178 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans:wght@100&display=swap');
+*{
+padding: 0;
+margin: 0;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+nav {
+    background: #0082e6;
+    height:80px;
+    width: 100%;
+}
+label.logo{
+color: white;
+font-size: 35px;
+line-height:80px;
+padding: 0 100px;
+font-weight:bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: purple;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+
+}
+a.active,a:hover{
+    
+    transition: .5s;   
+}
+
+#div5{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: skyblue;
+}
+#div5 h3{
+    font-family: 'Allura', cursive;
+    font-size: 52px;
+    text-align: center;
+    color: slategray;
+}
+
+a{
+    height: 100px;
+    width: 100px;
+    
+}
+.sai{
+    height: 100px;
+    width: 100px;
+    background-color:white;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px;
+    line-height: 110px;
+    box-shadow: 1px 4px 2px 2px #dcdde1;
+    background: black;
+    border-radius: 50px;
+}
+
+
+.sai i{
+    transition: all 0.3s linear;
+}
+.sai:hover i{
+    transform: scale(1.4);
+}
+.fa-instagram{
+    color: #e84393;
+}
+.fa-linkedin{
+    color: skyblue;
+}
+.fa-github{
+    color: #333;
+}
+
+.fa-mail-reply{
+    color:red;
+}
+
+.child{
+    float: left;
+}
+.parent{
+    display: flex;
+}
+
+#div1{
+    height:600px;
+    background-color: #81c644;
+    text-align: center;
+}
+    
+#div1 h1{
+    font-family: 'Allura', cursive;
+    font-size: 52px;
+    text-align: center;
+}
+
+.heading h2{
+    font-family: 'Allura', cursive;
+    font-size: 52px;
+    text-align: center;
+}
+#div2{
+    background-color:black;
+    color: white ;
+    height:500px;
+}
+#div2 h2 {
+    font-family: 'Allura', cursive;
+    font-size: 52px;
+    text-align: center;
+}
+.team{
+    display: flex;
+    text-align: center;
+    width: auto;
+}
+.team.team_member{
+    background: #fff;
+    margin: 5px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+#div3{
+   height:500px;
+    background-color:purple;
+    color: white ;
+    text-align: center;
+    display:flexbox;
+
+}
+#div3 h2{
+    font-family: 'Allura', cursive;
+    font-size: 52px;
+    text-align: center;
+}
+img{
+    position: static;
+    border-radius: 50%;
+    width:200px;
+    height:200px;
+}
+button{
+    background-color: whitesmoke;
+    font-family:cursive;
+    border: none;
+    color: black;
+    padding:15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 16px;
+
+}
+
